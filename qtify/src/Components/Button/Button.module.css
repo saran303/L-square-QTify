@@ -1,0 +1,11 @@
+.button{
+    display: inline-flex;
+    padding: 10px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0px;
+    border-radius: 12px;
+    background: var(--color-black);
+    color: var(--color-primary);
+    cursor: pointer;
+}
