@@ -2,8 +2,9 @@
     height: 74px;
     width: 100vw;
     padding: 0px, 32px;
+    gap: 20px;
     background-color: var(--color-primary);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }

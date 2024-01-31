@@ -5,11 +5,13 @@ import Button from '../Button/Button'
 import Search from '../Searchbar/Search'
 const Nav = () => {
   return (
+    // <div container>
     <nav className={styles.navbar}>
         <Logo />
         <Search placeholder={"Search a album of your choice"}/>
         <Button text={"Give Feedback"}/>
     </nav>
+    // </div>
   )
 }
 
