@@ -6,20 +6,20 @@ import { fetchTopAlbums } from './api/api';
 // import Section from './Components/Section/Section';
 
 function App() {
-const [topAlbumsData, setTopAlbumsData] = useState([]);
+// const [topAlbumsData, setTopAlbumsData] = useState([]);
 
-const generateTopAlbums = async () => {
-  try{
-    const data = await fetchTopAlbums();
-    setTopAlbumsData(data);
-  }catch(err){
-    console.error(err);
-  }
-};
+// const generateTopAlbums = async () => {
+//   try{
+//     const data = await fetchTopAlbums();
+//     setTopAlbumsData(data);
+//   }catch(err){
+//     console.error(err);
+//   }
+// };
 
-useEffect(() => {
-    generateTopAlbums();
-},[])
+// useEffect(() => {
+//     generateTopAlbums();
+// },[])
   return (
     <div>
       <Nav />
